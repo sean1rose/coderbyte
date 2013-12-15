@@ -1,3 +1,0 @@
-function FirstReverse(str) {                  
-  return str.split('').reverse().join('');            // Take the passed in string parameter, split it based on charcter; 
-}                                                    // then reverse it; then join it back up based on character.
