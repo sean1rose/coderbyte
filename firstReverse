@@ -1,5 +1,6 @@
-//Using the JavaScript language, have the function FirstReverse(str) take the str parameter being passed and return the string in reversed order.
+//Using the JavaScript language, have the function FirstReverse(str) take the str parameter being passed and return 
+//the string in reversed order.
 
 function FirstReverse(str) {                  
-  return str.split('').reverse().join('');          // Take the passed in string parameter, split it based on charcter; then reverse it; then join it back up based on character.
-}
+  return str.split('').reverse().join('');          // Take the passed in string parameter, split it based on charcter; 
+}                                                    // then reverse it; then join it back up based on character.
