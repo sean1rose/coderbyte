@@ -1,0 +1,19 @@
+function FirstFactorial(num) { 
+  if (num <= 1) {                         //Recursion base case: the branch of the if-statement that halts the function from calling itself forever
+    return 1;                             //Our base case: if num is less than or equal to 1 (aka num is 1), then return 1
+      }
+  else {
+    return num * FirstFactorial(num-1);         //num multiplied by the entire Function(but this time with the value of the parameter less one)
+  }      
+}
+
+
+// So, we are decreasing the num by 1 each time, but that would go on forever were it not for the base case, where the value 1 is substituted in for num as soon as num reaches 1.
+// Example where user input is 4:
+// num === 4
+// FirstFactorial(4)
+// 4 * FF(4-1)
+//        3       * FF(3-1)
+//                    2         * FF(2-1)
+//                                  1
+// === 4 * 3 * 2 * 1
