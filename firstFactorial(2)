@@ -8,7 +8,8 @@ function FirstFactorial(num) {
 }
 
 
-// So, we are decreasing the num by 1 each time, but that would go on forever were it not for the base case, where the value 1 is substituted in for num as soon as num reaches 1.
+// So, we are decreasing the num by 1 each time, but that would go on forever were it not for the base case, 
+//where the value 1 is substituted in for num as soon as num reaches 1.
 // Example where user input is 4:
 // num === 4
 // FirstFactorial(4)
