@@ -3,7 +3,7 @@ coderbyte
 
 Coderbyte Challenges analyzed line for line.
 
-I started running through the easy coderbyte challenges on 11/30/13. This was originally done as preparation for my applying to Hack Reactor. With the help of Google, I was able to stumble across leanena's answers:
+I started running through the "easy" coderbyte challenges on 11/30/13. This was originally done as preparation for my applying to Hack Reactor. With the help of Google, I was able to stumble across leanena's answers:
 
 https://github.com/leaena/coderbyte
 
