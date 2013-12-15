@@ -1,4 +1,4 @@
 coderbyte
 =========
 
-Coderbyte Challenges Analyzed line for line
+Coderbyte Challenges analyzed line for line
