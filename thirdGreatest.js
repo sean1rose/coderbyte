@@ -7,6 +7,6 @@ function prelim (a, b) {
 	return b.length - a.length						
 	}
 	
-function thirdGreatest (strArr) {
+function ThirdGreatest (strArr) {
 	return strArr.sort(prelim)[2]
 	}

@@ -8,7 +8,7 @@
 //		-> reset VAR2
 // 4. If, after running thru the for-loop, VAR2 still has a value (this would happen if there were a # at the very end of the parameter-string) -> add VAR2 to VAR1 as an integer
 // 5. Return VAR1
-// *DO NOT FORGET to PARSE the integers in steps 3 and 4!!!
+// *DO NOT FORGET to PARSE the integers in steps 3 and 4!!!	
 
 function NumberAddition(str) { 
   var sum = 0;

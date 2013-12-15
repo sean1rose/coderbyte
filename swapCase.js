@@ -11,7 +11,7 @@
 //				-> push the character, as is, to ARR1
 // 3. Join ARR1 to form a string and RETURN
 
-function swapCase(str) {
+function SwapCase(str) {
 	var results = [];
 	for (var i = 0; i < str.length; i++){
 		if (str[i] === str[i].toUpperCase()){
