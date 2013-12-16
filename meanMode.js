@@ -1,5 +1,4 @@
 // STEPS:
-
 // Calculate the mean:
 // 1. Create a variable to hold the sum of all #s in the array
 // 2. Create a FOR loop to run thru all the #s in the array; FOR EACH #...
