@@ -1,4 +1,5 @@
-// PLAN:
+// PLAN: breaking down the (answer to the arithmetic) into a millions slot, a thousands slot, and a hundreds slot so that we can insert commas in b/w
+// STEPS:
 // 1. Calculate the actual result (as an integer w/o commas) -> store it as the answer variable
 // 2. Calculate how many millions are contained in the answer -> convert to an integer and store in variable MILLIONS
 // 3. Calculate how many thousands are contained in the answer -> convert to an integer and store in variable THOUSANDS
