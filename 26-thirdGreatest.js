@@ -4,9 +4,9 @@
 // 3. Access the 3rd value of the sorted array
 
 function prelim (a, b) {
-	return b.length - a.length						
-	}
-	
+  return b.length - a.length            
+  }
+  
 function ThirdGreatest (strArr) {
-	return strArr.sort(prelim)[2]
-	}
+  return strArr.sort(prelim)[2]
+  }
