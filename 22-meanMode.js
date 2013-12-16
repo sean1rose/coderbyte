@@ -23,33 +23,33 @@
 
 //CODE:
 function MeanMode(arr) {
-	//mean calculation:
-	var sum = 0;
-	for (var i = 0; i < arr.length; i++) {
-		sum += arr[i];
-	}
-	var mean = (sum / arr.length);
-	
-	//mode calculation:
-	var polePosNum = 0;       //*note: polePosNum is going to be the mode
-	var polePosCount = 0;
-	var counter = 0;
-	for (var j = 0; j < arr.length; j++){
-		var sideNumber = arr[j];
-		for (var k = 0; k < arr.length; k++){
-			if (j != k && sideNumber === arr[k]){
-				counter += 1;
-				if (counter > polePosCount){
-					polePosCount = counter;
-					polePosNum = sideNumber;
-				}
-			}
-		}
-		counter = 0;
-	}
-	if (polePosNum === mean){
-		return 1;
-	} else {
-		return 0;
-	}
+  //mean calculation:
+  var sum = 0;
+  for (var i = 0; i < arr.length; i++) {
+    sum += arr[i];
+  }
+  var mean = (sum / arr.length);
+  
+  //mode calculation:
+  var polePosNum = 0;       //*note: polePosNum is going to be the mode
+  var polePosCount = 0;
+  var counter = 0;
+  for (var j = 0; j < arr.length; j++){
+    var sideNumber = arr[j];
+    for (var k = 0; k < arr.length; k++){
+      if (j != k && sideNumber === arr[k]){
+        counter += 1;
+        if (counter > polePosCount){
+          polePosCount = counter;
+          polePosNum = sideNumber;
+        }
+      }
+    }
+    counter = 0;
+  }
+  if (polePosNum === mean){
+    return 1;
+  } else {
+    return 0;
+  }
 }
