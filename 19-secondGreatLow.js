@@ -10,14 +10,14 @@
 // 6. Return the values with a space in b/w
 
 function SecondGreatLow(arr) {
-	var results = [arr[0]];
-	for (var i = 0; i < arr.length; i++){
-		if (results.indexOf(arr[i]) === -1){			// results.indexOf(arr[i]) === 0  -> would mean that the value already exists in results at index 0. So by using results.indexOf(arr[i]) === -1, we are saying that if the value doesn't already exist in results. This is how we get rid of duplicate values.
-			results.push(arr[i]);
-		}
-	}
-	results.sort(function(a,b) {return a - b});
-	var secondLowest = results[1];
-	var secondGreatest = results[results.length-2];		// length-1 -> returns the last element in the array; length-2 returns the 2nd to last; etc
-	return secondLowest + ' ' + secondGreatest;
+  var results = [arr[0]];
+  for (var i = 0; i < arr.length; i++){
+    if (results.indexOf(arr[i]) === -1){      // results.indexOf(arr[i]) === 0  -> would mean that the value already exists in results at index 0. So by using results.indexOf(arr[i]) === -1, we are saying that if the value doesn't already exist in results. This is how we get rid of duplicate values.
+      results.push(arr[i]);
+    }
+  }
+  results.sort(function(a,b) {return a - b});
+  var secondLowest = results[1];
+  var secondGreatest = results[results.length-2];   // length-1 -> returns the last element in the array; length-2 returns the 2nd to last; etc
+  return secondLowest + ' ' + secondGreatest;
 }
