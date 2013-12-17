@@ -10,16 +10,16 @@
 // 6. Return VAR2 == VAR3
 
 function Palindrome(str) {
-	var characters = str.toLowerCase().split('');
-	var noSpaces = '';
-	for (var i = 0; i < characters.length; i++){
-		if (characters[i] != ' '){
-			noSpaces += characters[i];
-		}
-	}
-	var reversed = '';
-	for (var j = 0; j < noSpaces.length; j++){
-		reversed += noSpaces[noSpaces.length - 1 - j];					// [noSpaces.length - 1] ->  would start at the last element. j starts w/ a value at 0 (so start at the last element). Then w/ each iteration thru the for loop, j increases and we run further from the end of the noSpaces string towards the beginning.
-	}
-	return noSpaces == reversed;
+  var characters = str.toLowerCase().split('');
+  var noSpaces = '';
+  for (var i = 0; i < characters.length; i++){
+    if (characters[i] != ' '){
+      noSpaces += characters[i];
+    }
+  }
+  var reversed = '';
+  for (var j = 0; j < noSpaces.length; j++){
+    reversed += noSpaces[noSpaces.length - 1 - j];          // [noSpaces.length - 1] ->  would start at the last element. j starts w/ a value at 0 (so start at the last element). Then w/ each iteration thru the for loop, j increases and we run further from the end of the noSpaces string towards the beginning.
+  }
+  return noSpaces == reversed;
 }
