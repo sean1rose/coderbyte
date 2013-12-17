@@ -1,12 +1,14 @@
 coderbyte
 =========
 
-Coderbyte Challenges analyzed line for line.
+Each easy Coderbyte Challenge analyzed step by step. 
 
 I started running through the "easy" coderbyte challenges on 11/30/13. This was originally done as preparation for my applying to Hack Reactor. With the help of Google, I was able to stumble across leaena's answers:
 
 https://github.com/leaena/coderbyte
 
-^ Without her help, I would've struggled mightily on the latter half of the easy challenges. For the most part (aka when she doesn't use regex's, which I haven't learned yet... wah wah wah), her answers are clear and concise, which helped me tremendously in my reverse-engineering/analyzing of her answers. Analyzing other people's code has pplayed a big role in my learning javascript. So thank you Leaena.
+^ Without her help, I would've struggled mightily on the latter half of the easy challenges. For the most part (aka when she doesn't use regex's, which I haven't learned yet... wah wah wah), her answers are clear and concise, which helped me tremendously in my reverse-engineering/analyzing of her answers. Analyzing other people's code has played a large role in my learning javascript. So thank you Leaena.
 
 Anywho, I'm going to put these up one by one, as I have to run through them all again anyways. Gotta be able to get these coded within 5 minutes foo!
+
+Note: Doing this helped me in 2 ways - #1: it forced me to go through each challenge over and over again until I engrained the rules to be taken from each one. Explaining and teaching helps you learn the materials. And #2: this is the first real "project" I used github with. So I learned github basics such as: git add and git commit -m and git push -u origin master.
