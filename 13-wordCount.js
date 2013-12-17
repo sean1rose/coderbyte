@@ -6,3 +6,6 @@ function WordCount(str) {
   var words = str.split(' ');
   return words.length;
 }
+
+// I just looked at another answer, apparently an even more concise way to code this would be...
+// return str.split(' ').length
