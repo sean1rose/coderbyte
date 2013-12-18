@@ -1,7 +1,7 @@
 coderbyte
 =========
 
-Each easy Coderbyte Challenge analyzed step by step. 
+Each easy Coderbyte Challenge, with answers analyzed step by step. 
 
 I started running through the "easy" coderbyte challenges on 11/30/13. This was originally done as preparation for my applying to Hack Reactor. With the help of Google, I was able to stumble across leaena's answers:
 
@@ -11,4 +11,4 @@ https://github.com/leaena/coderbyte
 
 Anywho, I'm going to put these up one by one, as I have to run through them all again anyways. Gotta be able to get these coded within 5 minutes foo!
 
-Note: Doing this helped me in 2 ways - #1: it forced me to go through each challenge over and over again until I engrained the rules to be taken from each one. Explaining and teaching helps you learn the materials. And #2: this is the first real "project" I used github with. So I learned github basics such as: git add and git commit -m and git push -u origin master.
+Note: Doing this helped me in 2 ways - #1: it forced me to go through each challenge over and over again until I engrained the rules to be taken from each one. Explaining and teaching helps you consolidate what you've learned (helps you gain mastery of the material). And #2: this is the first real "project" I used github with. So I learned github basics such as: git add and git commit -m and git push -u origin master. Coming from someone who didn't know diddly-squat about github, learning the basics gives me all the confidence in the world!.. not really, but it's a start
