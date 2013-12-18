@@ -6,6 +6,7 @@ function FirstFactorial(num) {
 }
 
 // OVERVIEW:
+
 // RECURSEEEEOOOOONNNNNN!!!
 // We have a base case of "num is less than or equal to 1," so as soon as num hits 1, the function will return 1. This is how we exit out of our recursive function
 // Otherwise, we are multiplying num * the function, itself. BUT, when we call the function w/in the function, we call it with (num - 1).
@@ -15,8 +16,9 @@ function FirstFactorial(num) {
 // num === 4
 
 // 1) FirstFactorial(4)
-//    A) num != 1, so do not return 1 yet
-//    B) return 4 * FirstFactorial(4 - 1)
+//    A) num != 1, so the IF-statement does not apply and we do not return 1 yet. Move on to the 2nd part of the function...
+//    B) return num * FirstFactorial(num - 1);
+//       -> return 4 * FirstFactorial(4 - 1)
 //       -> in the next step, we will run FirstFactorial again, with num === 3. DON'T FORGET THAT WE'VE ALREADY RETURNED 4...
 
 // 2) 4 * FirstFactorial(3)
