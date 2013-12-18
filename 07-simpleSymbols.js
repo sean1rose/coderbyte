@@ -19,7 +19,7 @@ function SimpleSymbols(str) {
 
 
 
-// Another possible answer, which I'll get dive into a little bit because I can use the .indexOf() practice...
+// Another possible answer, which I'll dive into a little bit since I can use the .indexOf() practice...
 
 // function SimpleSymbols(str) { 
 //  var strs = str.split("");
