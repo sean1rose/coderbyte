@@ -17,6 +17,7 @@ function SimpleSymbols(str) {
   return true;
 }
 
+// * Note I could've changed my if-statement slightly to say: if ( (parts[i] >= 'a' && parts[i] <= 'z') && ...etc). This would have the same effect and say "if the current character is a letter"
 
 
 // Another possible answer, which I'll dive into a little bit since I can use the .indexOf() practice...
