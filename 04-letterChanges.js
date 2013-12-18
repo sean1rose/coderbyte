@@ -1,7 +1,7 @@
 // *note: I forgot who, exactly, I ripped this answer off of (1 of the other coderbyte users), 
 // but I think this answer is genius. I remember first trying to wrap my head around the question 
 // (this being challenge #4, it was 1 of the 1st ones I did) and using multiples pieces of scratch paper 
-// but not being able to make substantial process. I finally gave in, and when I found this answer... 
+// but not being able to make substantial progress. This shits was hard! I finally gave in, and when I found this answer... joy 
 // they say coding can be like an art form, and I think in this case, it is... Anywho, on to the steps...
 
 // STEPS:
