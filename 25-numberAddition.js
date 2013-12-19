@@ -16,7 +16,7 @@ function NumberAddition(str) {
   for (var i = 0; i < str.length; i++) {
     if (str[i] >= '0' && str[i] <= '9') {
       curNum += str[i];
-    } else if (curNum != '') {                  // As soon as there's a character...
+    } else if (curNum != '') {                  // As soon as there's a character in curNum/ as soon as curNum is no longer empty....
       sum += parseInt(curNum);                  // -> ...convert whatever is in curNum to an integer (could be multiple digits) and add to sum
       curNum = '';                              // Reset curNum to blank (allowing you to add further numbers later on in the for loop)
     }
