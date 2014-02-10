@@ -8,7 +8,7 @@
 
 //CODE:
 
-function ArithGeo(arr) {
+function ArithGeoII(arr) {
   var difference = arr[1] - arr[0];
   var ratio = arr[1] / arr[0];
   var aTester = true;
