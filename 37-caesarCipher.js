@@ -1,5 +1,5 @@
 // STEPS
-// Create 2 arrays - 1 with the alphabet in all lowercase (but type out the alphabet two times, you'll see why later...), and another array with the alphabet in all uppercase (x2)
+// Create 2 arrays - 1 with the alphabet in all lowercase (but type out the alphabet two times, just in case the inputted character is a letter towards the back end of the alphabet, we want to be able to cycle thru the alphabet again...), and another array with the alphabet in all uppercase (x2)
 // Create a empty string to store our final result
 // Break the inputted string into component parts
 // Create a FOR-LOOP - to traverse through the inputted string..
