@@ -19,6 +19,8 @@
 //          -> The A-Z and a-z signify that we want to match a character that is a letter of the alphabet, whether it be a lowercase or an uppercase letter
 //        -> The + means '1 or more of' whatever preceded the +
 //          -> So we want to match a group consisting of either 1 or more of any lowercase/uppercase letter
+//        * Note that we could also have used ([\w]+)
+//          -> \w matches any word characters, so [\w]+ matches 1 or more word characters..
 //    (\d) is the 3rd set
 //        -> again, \d represents any digit
 //    -> So ultimately, we want to match any digit, followed 1 or more of any letter(s), follwoed by another digit
