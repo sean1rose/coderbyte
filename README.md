@@ -5,6 +5,8 @@ UPDATE (02/14/14)
 
 I've added all of the medium challenges, save for the last one - "Overlapping Rectangles." Yea, I'm gonna have to get back to you on that one. Haha, that one looks gnarly. But just to reiterate, I did this cuz the best way to "master" something is to teach it. So I thought I'd try my best to explain the answers in my vain attempt to master some of this material... Enjoy!
 
+- Oh one last thing that's changed since I initally summarized the easy challenges below - I've learned a little bit about regular expressions - not a lot, mind you, but enough to serve as a foundation where I'd feel comfortable looking up further information w/o feeling completely lost.
+
 
 Each easy Coderbyte Challenge, with answers analyzed step by step. 
 
