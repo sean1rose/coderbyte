@@ -1,6 +1,11 @@
 coderbyte
 =========
 
+UPDATE (02/14/14)
+
+I've added all of the medium challenges, save for the last one - "Overlapping Rectangles." Yea, I'm gonna have to get back to you on that one. Haha, that one looks gnarly. But just to reiterate, I did this cuz the best way to "master" something is to teach it. So I thought I'd try my best to explain the answers in my vain attempt to master some of this material... Enjoy!
+
+
 Each easy Coderbyte Challenge, with answers analyzed step by step. 
 
 I started running through the "easy" coderbyte challenges on 11/30/13. This was originally done as preparation for my applying to Hack Reactor. With the help of Google, I was able to stumble across leaena's answers:
